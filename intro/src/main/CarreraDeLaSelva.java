@@ -2,7 +2,9 @@ package main;
 
 import java.util.Scanner;
 
-public class CarreraDeLaSelva {  public static void main(String[] args) {
+public class CarreraDeLaSelva {
+
+    public static void main(String[] args) {
 
     String[] circuitoChico = {};
     String[] circuitoMedio = {};
@@ -34,20 +36,17 @@ public class CarreraDeLaSelva {  public static void main(String[] args) {
     System.out.print("ingrese su edad: ");
     int edad = entrada.nextInt();
 
-
     System.out.print("ingrese su numero de emergencia: ");
     int numeroEmergencia = entrada.nextInt();
 
     System.out.print("ingrese su grupo sanguiño: ");
     String sangre = entrada.next();
 
-
     System.out.print("ingrese su celular: ");
     int celular = entrada.nextInt();
 
     System.out.print("si quiere competir en el Circuito Chico, coloque 1, en caso que sea en el Circuito Mediano coloque 2, y sino 3: ");
     int tipoCompe = entrada.nextInt();
-
 
     if (tipoCompe == 1){
         if (edad >= 18){
@@ -71,5 +70,5 @@ public class CarreraDeLaSelva {  public static void main(String[] args) {
         }
     }
 
-    };
+    }
 }
